@@ -1,0 +1,47 @@
+.bg-2 {
+background-color: #dbdcdf; 
+color: black;
+}
+.bg-white {
+    background-color: white; 
+    color: black;
+    }
+.footerbg {
+background-color: black; 
+color: white;
+/* padding-top:0px; */
+}
+.navbg {
+
+margin-right: 0px;
+margin-left: 0px;
+padding: 25px;
+background: #f7f9fa;
+}
+.bg-5 {
+background-color: hsl(122, 28%, 63%); 
+color: yellow;
+}
+.box{
+    padding: 10px;
+    background: white;
+    margin-top:10px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:50px;
+    align-content: center;
+    height: 100%;
+  }
+  .comparison{
+    margin-top:10px;
+    margin-left:60px;
+    margin-right:15px;
+    margin-bottom:50px;
+  }
+  h3 {
+    color: rgb(62, 163, 62);
+  }
+  h5 {
+    color: rgb(62, 163, 62);
+    
+  }
