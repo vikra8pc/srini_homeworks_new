@@ -1,0 +1,41 @@
+.bg-2 {
+background-color: #dbdcdf; 
+color: black;
+}
+.bg-white {
+    background-color: white; 
+    color: black;
+    }
+.footerbg {
+background-color: black; 
+color: white;
+}
+.navbg {
+
+margin-right: 0px;
+margin-left: 0px;
+padding: 25px;
+background: #f7f9fa;
+}
+.bg-5 {
+background-color: hsl(122, 28%, 63%); 
+color: yellow;
+}
+.box{
+    padding: 0px;
+    background: white;
+    margin-top:10px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+    align-content: center;
+    
+  }
+ 
+  h3 {
+    color: rgb(62, 163, 62);
+  }
+  h5 {
+    color: rgb(62, 163, 62);
+    
+  }
