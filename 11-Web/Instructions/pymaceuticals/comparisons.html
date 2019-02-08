@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Comparisons</title>
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style_pymaceuticals.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid navbg">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="./index_pymaceuticals.html"><button type="button" class="btn btn-success">
+                                Pymaceuticals</button></a>
+                    </div>
+                    <div class="navbar-header">
+                            <a class="navbar-brand" href="./../index.html"><button type="button" class="btn btn-success">
+                                Home</button></a>
+                    </div>
+                        <ul class="nav navbar-nav navbar-right">
+                            <div class="btn-group"> 
+                                    <div class="btn-group">
+                                      <button type="button" class="btn btn-primary dropdown-toggle btn btn-success" data-toggle="dropdown">
+                                      Plots <span class="caret"></span></button>
+                                      <ul class="dropdown-menu" role="menu">
+                                            <li><a href="./tumor_response.html">Tumor Response To Treatment</a></li>
+                                            <li><a href="./metastatic_spread.html">Metastatic Spread During Treatment</a></li>
+                                            <li><a href="./mice_survival_rate.html">Survival During Treatment</a></li>
+                                            <li><a href="./Tumor_Change.html">Tumor Change Over 45 Day Treatment</a></li>
+                                      </ul>
+                                    </div>
+                                    <a href="./comparisons.html" class="btn btn-primary btn btn-success">Comparison</a>
+                                    <a href="./table_data.html" class="btn btn-primary btn btn-success">Data</a>
+                          
+                            </div>
+                        </ul>  
+                        
+                    </div>  
+                    </div>
+            
+                </div>
+            </nav> 
+
+    <div class="main">
+            <div class="container-fluid  bg-2">
+                    <div class="row bg-white">
+                            <div class="col-sm-12 col-md-12">
+                                    <strong><h3 >Comparison: Effectiveness of 4 drugs "Capomulin","Infubinol","Ketapril","Placebo"</h3></strong>
+                                    <p>Click any plot to get an in-depth analysis.</p>
+                            </div>
+                    </div>
+                    <div class="row comparison bg-white">
+                            <div class="col-sm-6 col-md-6">
+
+                                <h5>Tumor Response To Treatment</h5>
+                                <a href="./tumor_response.html">
+                                    <img src="./graphs/tumor_response.png" alt="Tumor Response To Treatment" height="400" width="600">
+                                </a>
+                                
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                        <h5>Metastatic Spread During Treatment</h5>
+                                        <a href="./metastatic_spread.html">
+                                            <img src="./graphs/metastatic_spread.png" alt="Metastatic Spread During Treatment" height="400" width="600">
+                                        </a>
+                            </div>    
+                                
+                    </div>
+                        
+                    <div class="row comparison bg-white">
+                            <div class="col-sm-6 col-md-6">                             
+                                        <strong><h5>Survival During Treatment</h5></strong>
+                                        <a href="./mice_survival_rate.html">
+                                            <img src="./graphs/mice_survival_rate.png" alt="Survival During Treatment" height="400" width="600">
+                                        </a>
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                        <strong><h5>Tumor Change Over 45 Day Treatment</h5></strong>
+                                        <a href="./Tumor_Change.html">
+                                            <img src="./graphs/Tumor_Change.png" alt="Tumor Change Over 45 Day Treatment" height="400" width="600">
+                                        </a>
+                            </div>
+                    </div>
+                    
+            </div>
+        </div>
+
+          
+    <div class="container-fluid bg-3 text-center">
+            <footer class="container-fluid footerbg text-center">
+                    &copy; Copyright Srinivasa Rao Vikram
+            </footer>
+    </div>
+
+</body>
+
+</html>

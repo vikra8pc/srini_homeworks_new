@@ -5,11 +5,11 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Humidity</title>
+  <title>Tumor Response To Treatment</title>
 
   <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style_pymaceuticals.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
@@ -23,26 +23,30 @@
             <nav class="navbar navbar-inverse">
                     <div class="container-fluid navbg">
                       <div class="navbar-header">
-                        <a class="navbar-brand" href="./index_weather.html"><button type="button" class="btn btn-success">
-                            Lattitude</button></a>
+                        <a class="navbar-brand" href="./index_pymaceuticals.html"><button type="button" class="btn btn-success">
+                            Pymaceuticals</button></a>
                       </div>
+                      <div class="navbar-header">
+                            <a class="navbar-brand" href="./../index.html"><button type="button" class="btn btn-success">
+                                Home</button></a>
+                    </div>
                       <ul class="nav navbar-nav navbar-right">
                             <div class="btn-group">
 
                                     
                                     
                                     <div class="btn-group">
-                                      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                      <button type="button" class="btn btn-primary dropdown-toggle btn-success" data-toggle="dropdown">
                                       Plots <span class="caret"></span></button>
                                       <ul class="dropdown-menu" role="menu">
-                                            <li><a href="./Max_Temperature.html">Max Temperature</a></li>
-                                            <li><a href="./Humidity.html">Humidity</a></li>
-                                            <li><a href="./Cloudiness.html">Cloudiness</a></li>
-                                            <li><a href="./Windspeed.html">Wind Speed</a></li>
+                                            <li><a href="./tumor_response.html">Tumor Response To Treatment</a></li>
+                                            <li><a href="./metastatic_spread.html">Metastatic Spread During Treatment</a></li>
+                                            <li><a href="./mice_survival_rate.html">Survival During Treatment</a></li>
+                                            <li><a href="./Tumor_Change.html">Tumor Change Over 45 Day Treatment</a></li>
                                       </ul>
                                     </div>
-                                    <a href="./comparisons.html" class="btn btn-primary">Comparison</a>
-                                    <a href="./table_data.html" class="btn btn-primary">Data</a>
+                                    <a href="./comparisons.html" class="btn btn-primary btn-success">Comparison</a>
+                                    <a href="./table_data.html" class="btn btn-primary btn-success">Data</a>
                                   </div> 
                         
                       
@@ -56,11 +60,12 @@
                     <div class="col-sm-12 col-md-8">
                         <div class="box">
                             
-                                <h3 >Humidity</h3>
+                                <h3 >Tumor Response To Treatment</h3>
                             
                             <div class="box">
-                                <img src="./graphs/Fig2.png" alt="Humidity" height="350" width="350" align="left">
-                                <p > There is no strong relationship between latitude and wind speed.
+                                <img src="./graphs/tumor_response.png" alt="Tumor Response To Treatment" height="350" width="350" align="left">
+                                <p> For parameter "Tumor Response to Treatment" the tumor volume is reduced over the period 
+                                    for drug Capomulin and all other drug treatments the tumor volume is increased.
                                 </p>
                                 
                             </div>
@@ -75,10 +80,10 @@
 
                             </div>
                             <div class="box">
-                               <a href="./Max_Temperature.html"><img src="./graphs/Fig1.png" alt="Latitude vs. Max Temperature" height="160" width="160"></a>
-                               <a href="./Humidity.html"><img src="./graphs/Fig2.png" alt="Latitude vs. Humidity" height="160" width="160"></a>
-                               <a href="./Cloudiness.html"><img src="./graphs/Fig3.png" alt="Latitude vs. Cloudiness" height="160" width="160"></a>
-                               <a href="./Windspeed.html"><img src="./graphs/Fig4.png" alt="Latitude vs. Wind Speed" height="160" width="160"></a>
+                                    <a href="./tumor_response.html"><img src="./graphs/tumor_response.png" alt="Tumor Response To Treatment" height="160" width="160"></a>
+                                    <a href="./metastatic_spread.html"><img src="./graphs/metastatic_spread.png" alt="Metastatic Spread During Treatment" height="160" width="160"></a>
+                                    <a href="./mice_survival_rate.html"><img src="./graphs/mice_survival_rate.png" alt="Survival During Treatment" height="160" width="160"></a>
+                                    <a href="./Tumor_Change.html"><img src="./graphs/Tumor_Change.png" alt="Tumor Change Over 45 Day Treatment" height="160" width="160"></a>
                             </div>
                         </div>
                     </div>

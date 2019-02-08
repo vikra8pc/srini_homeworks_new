@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather Visualisation</title>
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style_index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+    <!-- <div class="container-fluid bg-1 text-center"> -->
+            <nav class="navbar navbar-inverse">
+                    <div class="container-fluid navbg">
+                        <div class="navbar-header">
+                                <a class="navbar-brand" href="./../index.html"><button type="button" class="btn btn-success">
+                                    Home</button></a>
+                        </div>
+                      
+                      <ul class="nav navbar-nav navbar-right">
+                            <div class="btn-group">
+
+                                    
+                                    
+                                    <div class="btn-group">
+                                      <button type="button" class="btn btn-primary dropdown-toggle btn-success" data-toggle="dropdown">
+                                      Plots <span class="caret"></span></button>
+                                      <ul class="dropdown-menu" role="menu">
+                                            <li><a href="./Max_Temperature.html">Max Temperature</a></li>
+                                            <li><a href="./Humidity.html">Humidity</a></li>
+                                            <li><a href="./Cloudiness.html">Cloudiness</a></li>
+                                            <li><a href="./Windspeed.html">Wind Speed</a></li>
+                                      </ul>
+                                    </div>
+                                    <!-- <button type="button" class="btn btn-primary">Comparison</button> -->
+
+                                    <!-- <button type="button" class="btn btn-primary">Data</button> -->
+
+                                    <a href="./comparisons.html" class="btn btn-primary btn-success">Comparison</a>
+                                    <a href="./table_data.html" class="btn btn-primary btn-success">Data</a>
+                            </div> 
+                        </ul>
+                      
+                    </div>
+                  </nav> 
+    
+
+    <div class="main">
+            <div class="container-fluid bg-2" >
+                <div class="row">
+                    <div class="col-sm-12 col-md-8">
+                        <div class="box">
+                            
+                                <h3 >Summary: Latitude vs. X</h3>
+                            
+                            <div class="box">
+                                <img src="./graphs/Fig1.png" alt="City Latitude vs. Max Temperature(01/05/17)" height="300" width="300" align="left">
+                                <p >The purpose of this project was to analyze how weather changes as you get closer to the equater. 
+                                    To accomplish this analysis. we first pulled data from the OpenWeatherMapAPI to assemble a 
+                                    dataset on over 500 cities.
+                                </p>
+                                
+                                <p >After assembling the dataset, we used Matplotlib to plot various aspects of the 
+                                    weather vs. latitude. Factors we looked at included:temperature, cloudiness, windspeed, 
+                                    and humidity. This site provides the source data and visualizations created as 
+                                    part of the analysis,as well as explanations and descriptions of any trends and correlations 
+                                    witnessed.
+                                </p>
+                                <p>Repeating Text again</p>
+                                <p > The purpose of this project was to analyze how weather changes as you get closer to the equater. 
+                                    To accomplish this analysis. we first pulled data from the OpenWeatherMapAPI to assemble a 
+                                    dataset on over 500 cities.
+                                </p>
+                                <p >After assembling the dataset, we used Matplotlib to plot various aspects of the 
+                                        weather vs. latitude. Factors we looked at included:temperature, cloudiness, windspeed, 
+                                        and humidity. This site provides the source data and visualizations created as part of the 
+                                        analysis,as well as explanations and descriptions of any trends and correlations witnessed.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4">
+                        <div class="box">
+                            <div class="page-header">
+
+                                <h3>Visualizations</h3>
+
+                            </div>
+                            <div class="box">
+                               <a href="./Max_Temperature.html"><img src="./graphs/Fig1.png" alt="Latitude vs. Max Temperature" height="160" width="160"></a>
+                               <a href="./Humidity.html"><img src="./graphs/Fig2.png" alt="Latitude vs. Humidity" height="160" width="160"></a>
+                               <a href="./Cloudiness.html"><img src="./graphs/Fig3.png" alt="Latitude vs. Cloudiness" height="160" width="160"></a>
+                               <a href="./Windspeed.html"><img src="./graphs/Fig4.png" alt="Latitude vs. Wind Speed" height="160" width="160"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+          
+    <div class="container-fluid footerbg text-center">
+            <footer class="container-fluid footerbg text-center">
+                    &copy; Copyright Srinivasa Rao Vikram
+            </footer>
+    </div>
+
+</body>
+
+</html>

@@ -5,11 +5,11 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Weather Visualisation</title>
+  <title>Cloudiness</title>
 
   <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style_index.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
@@ -22,18 +22,21 @@
     <!-- <div class="container-fluid bg-1 text-center"> -->
             <nav class="navbar navbar-inverse">
                     <div class="container-fluid navbg">
-                        <div class="navbar-header">
-                                <a class="navbar-brand" href="./index.html"><button type="button" class="btn btn-success">
-                                    Home</button></a>
-                        </div>
-                      
+                      <div class="navbar-header">
+                        <a class="navbar-brand" href="./index_weather.html"><button type="button" class="btn btn-success">
+                            Lattitude</button></a>
+                      </div>
+                      <div class="navbar-header">
+                            <a class="navbar-brand" href="./../index.html"><button type="button" class="btn btn-success">
+                                Home</button></a>
+                    </div>
                       <ul class="nav navbar-nav navbar-right">
                             <div class="btn-group">
 
                                     
                                     
                                     <div class="btn-group">
-                                      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                      <button type="button" class="btn btn-primary dropdown-toggle btn-success" data-toggle="dropdown">
                                       Plots <span class="caret"></span></button>
                                       <ul class="dropdown-menu" role="menu">
                                             <li><a href="./Max_Temperature.html">Max Temperature</a></li>
@@ -42,50 +45,29 @@
                                             <li><a href="./Windspeed.html">Wind Speed</a></li>
                                       </ul>
                                     </div>
-                                    <!-- <button type="button" class="btn btn-primary">Comparison</button> -->
-
-                                    <!-- <button type="button" class="btn btn-primary">Data</button> -->
-
-                                    <a href="./comparisons.html" class="btn btn-primary">Comparison</a>
-                                    <a href="./table_data.html" class="btn btn-primary">Data</a>
-                            </div> 
-                        </ul>
+                                    <a href="./comparisons.html" class="btn btn-primary btn-success">Comparison</a>
+                                    <a href="./table_data.html" class="btn btn-primary btn-success">Data</a>
+                                  </div> 
+                        
                       
                     </div>
                   </nav> 
-    
+    </div>
 
     <div class="main">
-            <div class="container-fluid bg-2" >
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-12 col-md-8">
                         <div class="box">
                             
-                                <h3 >Summary: Latitude vs. X</h3>
+                                <h3 >Cloudiness</h3>
                             
                             <div class="box">
-                                <img src="./graphs/Fig1.png" alt="City Latitude vs. Max Temperature(01/05/17)" height="300" width="300" align="left">
-                                <p >The purpose of this project was to analyze how weather changes as you get closer to the equater. 
-                                    To accomplish this analysis. we first pulled data from the OpenWeatherMapAPI to assemble a 
-                                    dataset on over 500 cities.
+                                <img src="./graphs/Fig3.png" alt="Cloudiness" height="350" width="350" align="left">
+                                <p>There is no strong relationship between latitude and cloudiness. 
+                                    However, it is interesting to see that a strong band of cities sits at 0, 80, and 100% cloudiness.
                                 </p>
                                 
-                                <p >After assembling the dataset, we used Matplotlib to plot various aspects of the 
-                                    weather vs. latitude. Factors we looked at included:temperature, cloudiness, windspeed, 
-                                    and humidity. This site provides the source data and visualizations created as 
-                                    part of the analysis,as well as explanations and descriptions of any trends and correlations 
-                                    witnessed.
-                                </p>
-                                <p>Repeating Text again</p>
-                                <p > The purpose of this project was to analyze how weather changes as you get closer to the equater. 
-                                    To accomplish this analysis. we first pulled data from the OpenWeatherMapAPI to assemble a 
-                                    dataset on over 500 cities.
-                                </p>
-                                <p >After assembling the dataset, we used Matplotlib to plot various aspects of the 
-                                        weather vs. latitude. Factors we looked at included:temperature, cloudiness, windspeed, 
-                                        and humidity. This site provides the source data and visualizations created as part of the 
-                                        analysis,as well as explanations and descriptions of any trends and correlations witnessed.
-                                </p>
                             </div>
                         </div>
                     </div>
